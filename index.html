@@ -248,11 +248,13 @@
             overflow: hidden; /* Esconde a parte da imagem que transborda */
           }
           .banner-img {
-            height: 60vh; /* Altura aumentada para 60% da altura da tela */
-            width: auto;
-            max-width: none; /* Permite que a imagem ultrapasse a largura da tela */
-            object-fit: cover; /* Cobre a área, mantendo a proporção */
-            object-position: left center; /* Alinha a imagem à esquerda, cortando a direita */
+            width: 100vw !important;
+            max-width: 100vw !important;
+            height: 150vw !important; /* 2.5x da largura da tela */
+            object-fit: cover;
+            object-position: left center;
+            display: block;
+            border-radius: 0;
           }
           /* ===== FIM DA ALTERAÇÃO ===== */
 
